@@ -37,7 +37,7 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
    ```
 
-4. Activate the Virtual Environment:
+3. Activate the Virtual Environment:
 
    - On Window:
 
@@ -53,16 +53,16 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
    ```
 
-5. Install Required Packages:
+4. Install Required Packages:
 
    ```bash
    pip install -r requirements.txt
 
    ```
 
-6. Open the Jupyter Notebook:
+5. Open the Jupyter Notebook:
 
-  ```bash
+   ```bash
    jupyter notebook Notebook.ipynb
 
    ```
@@ -71,7 +71,7 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
 ## Dataset
 
-The dataset used for this project is included in the data/ directory (if available) or can be downloaded from Monkeypox Data Source. Ensure the data file is placed in the data/ directory before running the notebook.
+The dataset used for this project is included in the `data/` directory (if available) or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). Ensure the data file is placed in the `data/` directory before running the notebook.
 
 ## Contributing
 
