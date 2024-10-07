@@ -175,7 +175,7 @@ Important: When contributing, please create a new branch for your changes instea
 
 [MIT LICENSE](LICENSE)
 
-&copy;2024 Ryan Gading Abdullah
+&copy;2024 Ryan Gading Abdullah. All rights reserved.
 
 ## Contact
 
