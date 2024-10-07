@@ -73,6 +73,21 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
 The dataset used for this project is included in the `data/` directory (if available) or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). Ensure the data file is placed in the `data/` directory before running the notebook.
 
+## Project Structures
+
+monkeypox-analysis/
+│
+├── README.md # Project documentation and usage instructions
+├── requirements.txt # List of required Python libraries
+├── Notebook.ipynb # Jupyter notebook containing the analysis code
+├── data/ # Directory for datasets
+│ └── monkeypox_data.csv # Raw data file (example)
+
+<!-- │  -->
+<!-- └── src/ # Source code for additional analysis scripts -->
+<!--├── ├── figures/ # Directory to save generated figures and visualizations
+└── tableau/ # Tableau workbook files (.twb or .twbx) for interactive dashboards -->
+
 ## Contributing
 
 Feel free to fork the repository and submit pull requests, or make changes directly in the repository for improvements or bug fixes. Please ensure that your contributions adhere to the existing style and coding standards.
