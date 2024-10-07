@@ -30,25 +30,14 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
    (Replace username with your GitHub username)
 
-2. **Setup Database**
-
-   - Create a Database & Table
-
-   1. Open your MySQL client and run the following command to create a database named `designers`:
-
-      ```sql
-      CREATE DATABASE webdesign;
-      USE webdesign;
-      ```
-
-   2. Create a Virtual Environment:
+2. Create a Virtual Environment:
 
    ```bash
    python -m venv venv
 
    ```
 
-3. Activate the Virtual Environment:
+4. Activate the Virtual Environment:
 
    - On Window:
 
@@ -64,14 +53,14 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
    ```
 
-4. Install Required Packages:
+5. Install Required Packages:
 
    ```bash
    pip install -r requirements.txt
 
    ```
 
-5. Open the Jupyter Notebook:
+6. Open the Jupyter Notebook:
 
   ```bash
    jupyter notebook Notebook.ipynb
