@@ -106,14 +106,14 @@ Important: When contributing, please create a new branch for your changes instea
       After forking, open your terminal and run the following command to clone the forked repository to your local machine:
 
       ```bash
-      git clone https://github.com/your-username/SimpleDesignUploadCRUD.git
+      git clone https://github.com/your-username/DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy.git
       ```
 
    3. Navigate to the Project Directory
       Change to the project directory with the command:
 
       ```bash
-      cd SimpleDesignUploadCRUD
+      cd DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy
       ```
 
    4. Create a new branch
@@ -143,10 +143,10 @@ Important: When contributing, please create a new branch for your changes instea
 
    7. Open a pull request from your branch to the main branch of the original repository.
 
-   - Go to the original repository (the one you forked) on GitHub.
-   - Click the "Pull Requests" tab and then click "New Pull Request".
-   - Select your branch from your fork as the source (base) and the main branch from the original repository as the target (compare).
-   - Provide a suitable description and submit the pull request.
+      - Go to the original repository (the one you forked) on GitHub.
+      - Click the "Pull Requests" tab and then click "New Pull Request".
+      - Select your branch from your fork as the source (base) and the main branch from the original repository as the target (compare).
+      - Provide a suitable description and submit the pull request.
 
 2. Without Forking
 
@@ -182,7 +182,7 @@ Important: When contributing, please create a new branch for your changes instea
       git merge your-feature-branch
       ```
 
-   5. (Optional) Delete the branch after merging:
+   4. (Optional) Delete the branch after merging:
       After merging, you can delete the feature branch to keep the repository clean:
       ```bash
       git branch -d your-feature-branch
