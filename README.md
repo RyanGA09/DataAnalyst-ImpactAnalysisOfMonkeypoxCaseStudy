@@ -7,8 +7,8 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 - **Data Preprocessing**: Loading, cleaning, and transforming raw data for analysis.
 - **Descriptive Statistics**: Overview and statistical description of Monkeypox cases by country and region.
 - **Data Visualization**: Time-series plots, histograms, and bar charts to visualize trends and distributions.
-- **Machine Learning Models**: Predictive analysis using regression models and other techniques.
-- **Insights & Conclusions**: Summary of findings and recommendations for further research.
+<!-- - **Machine Learning Models**: Predictive analysis using regression models and other techniques.
+- **Insights & Conclusions**: Summary of findings and recommendations for further research. -->
 
 ## Technologies Used
 
