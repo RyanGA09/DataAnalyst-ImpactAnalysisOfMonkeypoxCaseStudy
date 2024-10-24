@@ -90,7 +90,13 @@ monkeypox-analysis/
 
 ## Visualization
 
-You can check the visualization result from my [Tableau]() Dashboard
+You can check the visualization result from my [Tableau](https://public.tableau.com/app/discover) Dashboard on the badge below:
+<br>
+<div align="center">
+    <a href="https://public.tableau.com/app/profile/ryanga09/vizzes" target="blank">
+        <img src="https://img.shields.io/badge/Tableau-View-orange?logo=tableau&style=for-the-badge" alt="View on Tableau" />
+    </a>
+</div>
 
 ## Contributing
 
