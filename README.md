@@ -18,7 +18,6 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 - Pandas
 - Matplotlib
 - Seaborn
-- Scikit-learn
 
 ## How to Use
 
@@ -73,15 +72,18 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
 The dataset used for this project is included in the `data/` directory (if available) or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). Ensure the data file is placed in the `data/` directory before running the notebook.
 
-## Project Structures
+## Project Structure
 
+```
 monkeypox-analysis/
 │
-├── README.md # Project documentation and usage instructions
-├── requirements.txt # List of required Python libraries
-├── Notebook.ipynb # Jupyter notebook containing the analysis code
-├── data/ # Directory for datasets
-│ └── monkeypox_data.csv # Raw data file (example)
+├── README.md                # Project documentation and usage instructions
+├── requirements.txt         # List of required Python libraries
+├── Notebook.ipynb          # Jupyter notebook containing the analysis code
+├── data/                   # Directory for datasets
+│   └── monkeypox_data.csv   # Raw data file (example)
+```
+
 
 <!-- │  -->
 <!-- └── src/ # Source code for additional analysis scripts -->
