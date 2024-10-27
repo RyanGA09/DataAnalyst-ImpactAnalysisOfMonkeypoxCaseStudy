@@ -1,6 +1,6 @@
 # Monkeypox Analysis Project
 
-A comprehensive data analysis project focusing on the Monkeypox outbreak. This Jupyter notebook provides insights and visualizations to understand the spread, trends, and impacts of the Monkeypox virus globally. By leveraging data science techniques, this project aims to facilitate deeper understanding and provide informative results regarding the outbreak.
+This comprehensive data analysis project focuses on the Monkeypox outbreak. Utilizing a Jupyter notebook, it provides insights and visualizations to help understand the spread, trends, and impacts of the Monkeypox virus globally. By employing data analysis techniques and visualizations, this project aims to facilitate a deeper understanding of the outbreak and deliver informative results to support public health efforts.
 
 ## Features
 
