@@ -7,8 +7,6 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 - **Data Preprocessing**: Loading, cleaning, and transforming raw data for analysis.
 - **Descriptive Statistics**: Overview and statistical description of Monkeypox cases by country and region.
 - **Data Visualization**: Time-series plots, histograms, and bar charts to visualize trends and distributions.
-<!-- - **Machine Learning Models**: Predictive analysis using regression models and other techniques.
-- **Insights & Conclusions**: Summary of findings and recommendations for further research. -->
 
 ## Technologies Used
 
@@ -24,16 +22,13 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/username/SimpleDesignUploadCRUD.git
+   git clone https://github.com/RyanGA09/DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy.git
    ```
-
-   (Replace username with your GitHub username)
 
 2. Create a Virtual Environment:
 
    ```bash
    python -m venv venv
-
    ```
 
 3. Activate the Virtual Environment:
@@ -42,21 +37,18 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 
    ```bash
    venv\Scripts\activate
-
    ```
 
    - On macOS and Linux:
 
    ```bash
    source venv/bin/activate
-
    ```
 
 4. Install Required Packages:
 
    ```bash
    pip install -r requirements.txt
-
    ```
 
 5. Open the Jupyter Notebook:
@@ -70,144 +62,43 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 
 ## Dataset
 
-The dataset used for this project is included in the `data/` directory (if available) or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). Ensure the data file is placed in the `data/` directory before running the notebook.
+The dataset used for this project is included in the `data/` directory or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). If you Download the data from [Monkeypox Data Source](https://ourworldindata.org/mpox) Ensure the data file is placed in the `data/` directory before running the notebook.
 
 ## Project Structure
 
 ```
-monkeypox-analysis/
+ImpactAnalysisOfMonkeypoxCaseStudy/
 │
-├── README.md                # Project documentation and usage instructions
-├── requirements.txt         # List of required Python libraries
-├── Notebook.ipynb          # Jupyter notebook containing the analysis code
 ├── data/                   # Directory for datasets
-│   └── monkeypox_data.csv   # Raw data file (example)
+│   └── monkeypox.csv   # Raw data file (example)
+├── Notebook.ipynb          # Jupyter notebook containing the analysis code
+├── README.md                # Project documentation and usage instructions
+└── requirements.txt         # List of required Python libraries
 ```
 
+## Read More
 
-<!-- │  -->
-<!-- └── src/ # Source code for additional analysis scripts -->
-<!--├── ├── figures/ # Directory to save generated figures and visualizations
-└── tableau/ # Tableau workbook files (.twb or .twbx) for interactive dashboards -->
+Check out my article on Medium:
 
-## Visualization
-
-You can check the visualization result from my [Tableau](https://public.tableau.com/app/discover) Dashboard on the badge below:
-<br>
 <div align="center">
-    <a href="https://public.tableau.com/app/profile/ryanga09/vizzes" target="blank">
+   <a href="https://medium.com/@ryangadingabdullah/article" target="blank">
+      <img src="https://img.shields.io/badge/Medium-Article-000000?logo=medium&style=for-the-badge" alt="Article on Medium" />
+   </a>
+</div>
+
+<br>
+
+You can check the visualization result from my [Tableau](https://public.tableau.com/app/profile/ryanga09/vizzes) Dashboard on the badge below:
+<br>
+
+<div align="center">
+   <a href="https://public.tableau.com/app/profile/ryanga09/viz/ImpactAnalysisofMonkeypoxCaseStudy/ImpactAnalysisofMonkeypoxCaseStudy" target="blank">
         <img src="https://img.shields.io/badge/Tableau-View-orange?logo=tableau&style=for-the-badge" alt="View on Tableau" />
     </a>
 </div>
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests, or make changes directly in the repository for improvements or bug fixes. Please ensure that your contributions adhere to the existing style and coding standards.
-
-Important: When contributing, please create a new branch for your changes instead of pushing directly to the main branch. To do this:
-
-1. With Forking:
-
-   1. Fork Repository
-      On the project page you want to contribute to, click the "Fork" button in the upper right corner. This will create a copy of the repository in your GitHub account.
-   2. Clone Forked Repository
-      After forking, open your terminal and run the following command to clone the forked repository to your local machine:
-
-      ```bash
-      git clone https://github.com/your-username/DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy.git
-      ```
-
-   3. Navigate to the Project Directory
-      Change to the project directory with the command:
-
-      ```bash
-      cd DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy
-      ```
-
-   4. Create a new branch
-      Create a new branch for the feature or bug fix you want to add:
-
-      ```bash
-      git checkout -b your-feature-branch
-      ```
-
-   5. Make your changes and commit them
-      Make the necessary changes in the code. After that, add the changes to the staging area and commit:
-
-      ```bash
-      git add .
-      ```
-
-      ```bash
-      git commit -m "Add a descriptive message about your changes"
-      ```
-
-   6. Push the branch to your forked repository
-      After committing, push the new branch to your forked repository on GitHub:
-
-      ```bash
-      git push -u origin your-feature-branch
-      ```
-
-   7. Open a pull request from your branch to the main branch of the original repository.
-
-      - Go to the original repository (the one you forked) on GitHub.
-      - Click the "Pull Requests" tab and then click "New Pull Request".
-      - Select your branch from your fork as the source (base) and the main branch from the original repository as the target (compare).
-      - Provide a suitable description and submit the pull request.
-
-2. Without Forking
-
-   1. Create a new branch
-      Create a new branch for the feature or bug fix you want to add:
-
-      ```bash
-      git checkout -b your-feature-branch
-      ```
-
-   2. Make your changes and commit them
-      Make the necessary changes in the code. After that, add the changes to the staging area and commit:
-
-      ```bash
-      git add .
-      ```
-
-      ```bash
-      git commit -m "Add a descriptive message about your changes"
-      ```
-
-   3. Push the branch to your branch at the repository
-      Push the new branch to the repository:
-
-      ```bash
-      git push -u origin your-feature-branch
-      ```
-
-   <!-- 4. Merge changes back to the main branch:
-      If you have write access to the main repository, you can merge your changes back to the main branch:
-      ```bash
-      git checkout main
-      git merge your-feature-branch
-      ```
-
-   4. (Optional) Delete the branch after merging:
-      After merging, you can delete the feature branch to keep the repository clean:
-      ```bash
-      git branch -d your-feature-branch
-      ``` -->
-
-**_By following these guidelines, you help maintain a clean and manageable project history._**
 
 ## License
 
 [MIT LICENSE](LICENSE)
 
 &copy;2024 Ryan Gading Abdullah. All rights reserved.
-
-## Contact
-
-Feel free to replace the placeholders with your actual details, and let me know if you need further assistance! please contact me at [Gmail](mailto:ryangabdullah9@gmail.com).
-
-<!-- ## Support Me
-
-[Saweria](https://saweria.co/en) -->
