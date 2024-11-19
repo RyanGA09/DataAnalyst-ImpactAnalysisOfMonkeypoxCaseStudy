@@ -1,6 +1,6 @@
 # Monkeypox Analysis Project
 
-A comprehensive data analysis project focusing on the Monkeypox outbreak. This Jupyter notebook provides insights and visualizations to understand the spread, trends, and impacts of the Monkeypox virus globally. By leveraging data science techniques, this project aims to facilitate deeper understanding and provide informative results regarding the outbreak.
+This comprehensive data analysis project focuses on the Monkeypox outbreak. Utilizing a Jupyter notebook, it provides insights and visualizations to help understand the spread, trends, and impacts of the Monkeypox virus globally. By employing data analysis techniques and visualizations, this project aims to facilitate a deeper understanding of the outbreak and deliver informative results to support public health efforts.
 
 ## Features
 
@@ -18,7 +18,6 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 - Pandas
 - Matplotlib
 - Seaborn
-- Scikit-learn
 
 ## How to Use
 
@@ -73,15 +72,18 @@ A comprehensive data analysis project focusing on the Monkeypox outbreak. This J
 
 The dataset used for this project is included in the `data/` directory (if available) or can be downloaded from [Monkeypox Data Source](https://ourworldindata.org/mpox). Ensure the data file is placed in the `data/` directory before running the notebook.
 
-## Project Structures
+## Project Structure
 
+```
 monkeypox-analysis/
 │
-├── README.md # Project documentation and usage instructions
-├── requirements.txt # List of required Python libraries
-├── Notebook.ipynb # Jupyter notebook containing the analysis code
-├── data/ # Directory for datasets
-│ └── monkeypox_data.csv # Raw data file (example)
+├── README.md                # Project documentation and usage instructions
+├── requirements.txt         # List of required Python libraries
+├── Notebook.ipynb          # Jupyter notebook containing the analysis code
+├── data/                   # Directory for datasets
+│   └── monkeypox_data.csv   # Raw data file (example)
+```
+
 
 <!-- │  -->
 <!-- └── src/ # Source code for additional analysis scripts -->
@@ -90,7 +92,13 @@ monkeypox-analysis/
 
 ## Visualization
 
-You can check the visualization result from my [Tableau]() Dashboard
+You can check the visualization result from my [Tableau](https://public.tableau.com/app/discover) Dashboard on the badge below:
+<br>
+<div align="center">
+    <a href="https://public.tableau.com/app/profile/ryanga09/vizzes" target="blank">
+        <img src="https://img.shields.io/badge/Tableau-View-orange?logo=tableau&style=for-the-badge" alt="View on Tableau" />
+    </a>
+</div>
 
 ## Contributing
 
