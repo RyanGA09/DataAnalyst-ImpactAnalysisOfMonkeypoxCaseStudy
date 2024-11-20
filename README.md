@@ -12,7 +12,6 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 
 - Python (3.x)
 - Jupyter Notebook
-- NumPy
 - Pandas
 - Matplotlib
 - Seaborn
