@@ -68,9 +68,9 @@ The dataset used for this project is included in the `data/` directory or can be
 ```
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
-├── data/                   # Directory for datasets
-│   └── monkeypox.csv   # Raw data file (example)
-├── Notebook.ipynb          # Jupyter notebook containing the analysis code
+├── data/                    # Directory for datasets
+│   └── monkeypox.csv        # Raw data file
+├── Notebook.ipynb           # Jupyter notebook containing the analysis code
 ├── README.md                # Project documentation and usage instructions
 └── requirements.txt         # List of required Python libraries
 ```
