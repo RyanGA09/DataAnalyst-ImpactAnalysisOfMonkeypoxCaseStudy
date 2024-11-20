@@ -1,4 +1,4 @@
-# Monkeypox Analysis Project
+# Impact Analysis of Monkeypox Case Study
 
 This comprehensive data analysis project focuses on the Monkeypox outbreak. Utilizing a Jupyter notebook, it provides insights and visualizations to help understand the spread, trends, and impacts of the Monkeypox virus globally. By employing data analysis techniques and visualizations, this project aims to facilitate a deeper understanding of the outbreak and deliver informative results to support public health efforts.
 
@@ -77,7 +77,7 @@ ImpactAnalysisOfMonkeypoxCaseStudy/
 
 ## Read More
 
-Check out my article on Medium:
+Check out my article on [Medium](https://medium.com/@ryangadingabdullah):
 
 <div align="center">
    <a href="https://medium.com/@ryangadingabdullah/article" target="blank">
