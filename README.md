@@ -68,11 +68,18 @@ The dataset used for this project is included in the `data/` directory or can be
 ```
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
-├── data/                    # Directory for datasets
-│   └── monkeypox.csv        # Raw data file
-├── Notebook.ipynb           # Jupyter notebook containing the analysis code
-├── README.md                # Project documentation and usage instructions
-└── requirements.txt         # List of required Python libraries
+├── data/                                                  # Directory for datasets
+│   │   ├── original/                                      # Original dataset folder
+│   │   │   └── monkeypox.csv                              # Raw data file
+│   │   ├── filtered/                                      # Filtered datasets folder by year and month
+│   │   │   └── monkeypox_2022_5_to_2024_11_filtered.csv   # Raw filtered data file
+│   │   └── processed/                                     # processed datasets folder
+│   │       └── monkeypox_2022_5_to_2024_11_processed.csv  # Cleaned Data file
+├── Notebook_Analyzing.ipynb                               # Jupyter notebook containing the analysis code
+├── Notebook_Science.ipynb                                 # Jupyter notebook containing the data science
+├── filter_monkeypox_data.py                               # Python code for filtering dataset
+├── README.md                                              # Project documentation and usage instructions
+└── requirements.txt                                       # List of required Python libraries
 ```
 
 ## Read More
