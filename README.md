@@ -1,4 +1,4 @@
-# Impact Analysis of Monkeypox Case Study
+# Data Analyst - Impact Analysis of Monkeypox Case Study
 
 This comprehensive data analysis project focuses on the Monkeypox outbreak. Utilizing a Jupyter notebook, it provides insights and visualizations to help understand the spread, trends, and impacts of the Monkeypox virus globally. By employing data analysis techniques and visualizations, this project aims to facilitate a deeper understanding of the outbreak and deliver informative results to support public health efforts.
 
@@ -67,18 +67,18 @@ The dataset used for this project is included in the `data/` directory or can be
 ```bash
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
-├── data/                                                  # Directory for datasets
-│   │   ├── original/                                      # Original dataset folder
-│   │   │   └── monkeypox.csv                              # Raw data file
-│   │   ├── filtered/                                      # Filtered datasets folder by year and month
-│   │   │   └── monkeypox_2022_5_to_2024_11_filtered.csv   # Raw filtered data file
-│   │   └── processed/                                     # processed datasets folder
-│   │       └── monkeypox_2022_5_to_2024_11_processed.csv  # Cleaned Data file
-├── Notebook_Analyzing.ipynb                               # Jupyter notebook containing the analysis code
-├── Notebook_Science.ipynb                                 # Jupyter notebook containing the data science
-├── filter_monkeypox_data.py                               # Python code for filtering dataset
-├── README.md                                              # Project documentation and usage instructions
-└── requirements.txt                                       # List of required Python libraries
+├── data/                                                      # Directory for datasets
+│     ├── processed/                                           # Original dataset folder
+│     │     └── monkeypox_2022_5_to_2024_11_processed.csv      # Cleaned Data file
+│     └── raw/                                                 # Original dataset folder
+│           ├── filtered/                                      # Filtered datasets folder by year and month
+│           │     └── monkeypox_2022_5_to_2024_11_filtered.csv # Raw filtered data file
+│           └── original/                                      # processed datasets folder
+│                 └── monkeypox_2022_5_to_2024_11.csv          # Raw data file
+├── Notebook.ipynb                                             # Jupyter notebook containing the analysis code
+├── filter_monkeypox_data.py                                   # Python code for filtering dataset
+├── README.md                                                  # Project documentation and usage instructions
+└── requirements.txt                                           # List of required Python libraries
 ```
 
 ## Read More
