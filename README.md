@@ -54,7 +54,6 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 
    ```bash
    jupyter notebook Notebook.ipynb
-
    ```
 
 6. Run the Cells: Execute each cell sequentially in the notebook to perform data analysis and visualize results.
@@ -65,7 +64,7 @@ The dataset used for this project is included in the `data/` directory or can be
 
 ## Project Structure
 
-```
+```bash
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
 ├── data/                                                  # Directory for datasets
