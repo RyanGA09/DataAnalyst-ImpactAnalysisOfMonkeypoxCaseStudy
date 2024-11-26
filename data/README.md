@@ -5,7 +5,7 @@
 ## Data Structure
 
 ```bash
-ImpactAnalysisOfMonkeypoxCaseStudy/
+ImpactAnalysisOfMonkeypoxCaseStudy/data
 │
 ├── processed/                                                                            # Processed dataset folder
 │   └── monkeypox_{start_year}_{start_month}_to_{end_year}_{end_month}_processed.csv      # Processed Data file

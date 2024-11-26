@@ -28,6 +28,8 @@ Although Monkeypox is not as popular as other pandemics, its spread still poses 
 4. Temporal Analysis: Are there any patterns or spikes in the spread of Monkeypox based on time of day, e.g. in certain seasons or certain time periods of the year?
 5. Case Fatality Ratio Analysis: Which regions have the highest case fatality ratios? Do these regions also have a high number of cases or fewer but higher fatality rates?
 
+---
+
 ## Data Understanding
 
 ### Data Description

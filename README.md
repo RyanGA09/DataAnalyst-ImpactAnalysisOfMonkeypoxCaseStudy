@@ -76,7 +76,7 @@ The dataset used for this project is included in the `data/` directory or can be
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
 ├── data/                                                      # Directory for datasets
-├── notebooks/                                                 # Directory for notebooks code
+├── notebooks/                                                 # Directory for jupyter notebooks code
 ├── filter_monkeypox_data.py                                   # Python code for filtering dataset
 ├── README.md                                                  # Project documentation and usage instructions
 └── requirements.txt                                           # List of required Python libraries
