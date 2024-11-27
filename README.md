@@ -48,23 +48,35 @@
    pip install -r requirements.txt
    ```
 
-5. **Open the Jupyter Notebook**:
+5. **Filter Data**
 
-   - To perform business understanding, gather data, and data cleaning, open the notebook in the main directory which focuses on data processing:
+   Before working on the notebooks, filter the datasets using the provided Python script. You can execute the script by running:
+
+   ```bash
+   python filter_monkeypox_data.py
+   ```
+
+   This will process the raw data and generate the necessary filtered datasets for further analysis.
+
+6. **Open the Jupyter Notebook**:
+
+   - To perform business understanding, gather data, and data cleaning, open the notebook located in the analysis_processing directory, which focuses on data processing tasks:
 
      ```bash
      jupyter notebook notebooks/analysis_processing/{start_year}_{start_month}_to_{end_year}_{end_month}/Notebook.ipynb
      ```
 
-   - To conduct Exploratory Data Analysis (EDA) and data visualization, open the notebook in the /visualization subdirectory, which focuses on further analysis and visual representation of the data:
+   - To conduct Exploratory Data Analysis (EDA) and data visualization, open the notebook in the visualization subdirectory, which is focused on further analysis and visual representation of the data:
 
      ```bash
      jupyter notebook notebooks/visualization/Notebook_visualization_{start_year}_{start_month}_to_{end_year}_{end_month}.ipynb
      ```
 
-6. **Run the Cells**:
+7. **Run the Cells**:
 
-   Execute each cell sequentially in the notebook to perform data analysis and visualize results.
+   - In the analysis_processing notebooks, execute each cell sequentially to perform data cleaning, data preparation, and business understanding steps.
+
+   - In the visualization notebooks, run each cell to conduct exploratory data analysis (EDA), and create data visualizations based on the processed data.
 
 ## Dataset Information
 
