@@ -75,7 +75,6 @@
 7. **Run the Cells**:
 
    - In the analysis_processing notebooks, execute each cell sequentially to perform data cleaning, data preparation, and business understanding steps.
-
    - In the visualization notebooks, run each cell to conduct exploratory data analysis (EDA), and create data visualizations based on the processed data.
 
 ## Dataset Information
@@ -110,12 +109,12 @@ After the filtered data is prepared in the `data/filtered` directory, it will un
 ```bash
 ImpactAnalysisOfMonkeypoxCaseStudy/
 │
-├── data/                                                      # Directory for the datasets
+├── data/                                                      # Contains the datasets
 │   ├── processed/                                             # Contains the processed data, used for EDA and visualization.
-│   └── raw/                                                   # Contains the Original and filtered data directory
+│   └── raw/                                                   # Contains the original and filtered data directory
 │        ├── filtered/                                         # Contains the filtered data, ready for analysis.
 │        └── original/                                         # Contains the original, unfiltered & unprocessed data.
-├── notebooks/                                                 # Directory for jupyter notebooks code
+├── notebooks/                                                 # Contains the jupyter notebooks code
 ├── filter_monkeypox_data.py                                   # Python code for filtering dataset
 ├── README.md                                                  # Project documentation and usage instructions
 └── requirements.txt                                           # List of required Python libraries
