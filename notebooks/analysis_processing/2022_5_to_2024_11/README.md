@@ -1,4 +1,4 @@
-# Impact Analysis of Monkeypox Case Study (Analysis_Processing)
+# Impact Analysis of Monkeypox Case Study - 2022-5 to 2024-11 (Analysis_Processing)
 
 ---
 
@@ -18,7 +18,7 @@ This comprehensive data analysis project focuses on the Monkeypox outbreak. Util
 
 5. **Identification of High-risk Regions**: Identifying "hotspots" can support public health officials in prioritizing these areas for immediate attention and interventions.
 
-## Problem Statement
+## Problem Points
 
 Although Monkeypox is not as popular as other pandemics, its spread still poses significant challenges to global public health, especially in countries where the virus is more prevalent. Some of the key issues that need to be analyzed from this data are:
 
@@ -59,3 +59,29 @@ Although Monkeypox is not as popular as other pandemics, its spread still poses 
 4. Case Fatality Ratio Analysis: Calculate the case fatality ratio (CFR) as the total number of deaths divided by the total number of cases in each country/region to identify areas with high fatality rates.
 
 ---
+
+<!-- **Data Description**
+
+1. location: The name of the country or region that reported the data.
+2. date: The date the data was reported in YYYY-MM-DD format.
+3. new_cases: The number of new cases of Monkeypox reported on that date in the country/region.
+4. new_deaths: The number of new deaths reported on that date in a country/region.
+5. total_cases: The cumulative number of Monkeypox cases recorded in a country/region up to that date.
+6. total_deaths: The cumulative number of deaths recorded in a country/region up to that date.
+7. new_cases_per_million: The number of new cases per one million population in the region as of the given date.
+8. total_cases_per_million: The cumulative number of cases per one million population up to the given date.
+9. new_deaths_per_million: The number of new deaths per one million population in the region as of the given date.
+10. total_deaths_per_million: The cumulative number of deaths per one million population up to the given date.
+11. new_cases_smoothed: The smoothed average daily number of new cases over the given time period.
+12. new_deaths_smoothed: The smoothed average daily number of new deaths over the given time period.
+13. new_cases_smoothed_per_million: Average daily smoothed number of new cases per one million population.
+14. new_deaths_smoothed_per_million: Rata-rata jumlah kematian baru harian yang dihaluskan per satu juta penduduk.
+15. suspected_cases_cumulative: Jumlah kasus Monkeypox yang dicurigai hingga tanggal tertentu (jika data tersedia).
+16. annotation: Catatan tambahan atau informasi terkait laporan data pada tanggal tertentu (misalnya, revisi atau koreksi data).
+
+**Data Grouping**
+
+1. Total Kasus dan Kematian per Negara/Wilayah: Menghitung jumlah total kasus dan kematian Monkeypox di setiap negara atau wilayah.
+2. Perkembangan Kasus per Hari: Mengelompokkan data berdasarkan tanggal untuk melihat tren penyebaran harian.
+3. Distribusi Kasus Baru per Wilayah: Melihat distribusi kasus baru berdasarkan lokasi dan waktu untuk memahami wilayah yang terkena dampak paling parah dalam periode tertentu.
+4. Analisis Rasio Fatalitas Kasus (Case Fatality Ratio): Menghitung rasio fatalitas kasus (CFR) sebagai jumlah total kematian dibagi jumlah total kasus di setiap negara/wilayah untuk mengidentifikasi wilayah dengan tingkat fatalitas yang tinggi. -->
