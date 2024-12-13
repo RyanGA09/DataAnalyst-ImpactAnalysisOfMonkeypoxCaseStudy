@@ -124,7 +124,7 @@ ImpactAnalysisOfMonkeypoxCaseStudy/
 
 Check out my article on [Medium](https://medium.com/@ryangadingabdullah):
 
-<div align="center">
+<div>
    <a href="https://medium.com/@ryangadingabdullah/article" target="blank">
       <img src="https://img.shields.io/badge/Medium-Article-000000?logo=medium&style=for-the-badge" alt="Article on Medium" />
    </a>
@@ -135,11 +135,17 @@ Check out my article on [Medium](https://medium.com/@ryangadingabdullah):
 You can check the visualization result from my [Tableau](https://public.tableau.com/app/profile/ryanga09/vizzes) Dashboard on the badge below:
 <br>
 
-<div align="center">
+<div>
    <a href="https://public.tableau.com/app/profile/ryanga09/viz/ImpactAnalysisofMonkeypoxCaseStudy/ImpactAnalysisofMonkeypoxCaseStudy" target="blank">
         <img src="https://img.shields.io/badge/Tableau-View-orange?logo=tableau&style=for-the-badge" alt="View on Tableau" />
     </a>
 </div>
+
+## Support Me
+
+<a href="https://saweria.co/RyanGA09" target="_blank">
+   <img src="https://img.shields.io/badge/Saweria-Support-orange?logo=saweria&style=for-the-badge" alt="Support on Saweria" />
+</a>
 
 ## License
 
