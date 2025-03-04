@@ -8,11 +8,12 @@
 
 ## Technologies Used
 
-- Python (3.x)
 - Jupyter Notebook
 - Pandas
 - Matplotlib
 - Seaborn
+- Pathlib
+- Os
 
 ## How to Use the Program
 
