@@ -30,43 +30,46 @@ data = pd.read_csv(file_path)
 # Ensure the 'date' column is in datetime format
 data['date'] = pd.to_datetime(data['date'])
 
-# Filter the data for the selected year and month range
+# New input for the range to save the data
+while True:
+    try:
+        # Input for new start year and month for saving
+        new_start_year = int(input("Enter the new start year for saving (e.g., 2022): "))
+        new_start_month = int(input("Enter the new start month for saving (1-12): "))
+        
+        # Input for new end year and month for saving
+        new_end_year = int(input("Enter the end year (e.g., 2024): "))
+        new_end_month = int(input("Enter the end month (1-12): "))
+        
+        # Validate the new start year and month input
+        if new_start_month < 1 or new_start_month > 12 or new_end_month < 1 or new_end_month > 12:
+            print("Month must be between 1 and 12. Please try again.")
+        elif new_start_year < start_year or (new_start_year == start_year and new_start_month < start_month):
+            print("The new start date for saving cannot be earlier than the original start date. Please try again.")
+        elif new_end_year < new_start_year or (new_end_year == new_start_year and new_end_month < new_start_month):
+            print("The new end date for saving cannot be earlier than the new start date. Please try again.")
+        elif new_end_year > end_year or (new_end_year == end_year and new_end_month > end_month):
+            print("The new end date for saving cannot be later than the original end date. Please try again.")
+        else:
+            break
+    except ValueError:
+        print("Invalid input. Please enter numeric year and month values (e.g., 2022 and 5 for May).")
+
+# Filter the data for the new year and month range
 filtered_data = data[
-    (data['date'].dt.year > start_year) | 
-    ((data['date'].dt.year == start_year) & (data['date'].dt.month >= start_month)) & 
-    (data['date'].dt.year < end_year) | 
-    ((data['date'].dt.year == end_year) & (data['date'].dt.month <= end_month))
+    (data['date'].dt.year >= new_start_year) & 
+    (data['date'].dt.year <= new_end_year) & 
+    (
+        ((data['date'].dt.year == new_start_year) & (data['date'].dt.month >= new_start_month)) |
+        ((data['date'].dt.year == new_end_year) & (data['date'].dt.month <= new_end_month)) |
+        ((data['date'].dt.year > new_start_year) & (data['date'].dt.year < new_end_year))
+    )
 ]
 
 # Check if there is data for the selected year and month range
 if filtered_data.empty:
-    print(f"No data found for the range {start_month}/{start_year} to {end_month}/{end_year}.")
+    print(f"No data found for the range {new_start_month}/{new_start_year} to {new_end_month}/{new_end_year}.")
 else:
-    # New input for the range to save the data
-    while True:
-        try:
-            # Input for new start year and month for saving
-            new_start_year = int(input("Enter the new start year for saving (e.g., 2022): "))
-            new_start_month = int(input("Enter the new start month for saving (1-12): "))
-            
-            # Input for new end year and month for saving
-            new_end_year = int(input("Enter the end year (e.g., 2024): "))
-            new_end_month = int(input("Enter the end month (1-12): "))
-            
-            # Validate the new start year and month input
-            if new_start_month < 1 or new_start_month > 12 or new_end_month < 1 or new_end_month > 12:
-                print("Month must be between 1 and 12. Please try again.")
-            elif new_start_year < start_year or (new_start_year == start_year and new_start_month < start_month):
-                print("The new start date for saving cannot be earlier than the original start date. Please try again.")
-            elif new_end_year < new_start_year or (new_end_year == new_start_year and new_end_month < new_start_month):
-                print("The new end date for saving cannot be earlier than the new start date. Please try again.")
-            elif new_end_year > end_year or (new_end_year == end_year and new_end_month > end_month):
-                print("The new end date for saving cannot be later than the original end date. Please try again.")
-            else:
-                break
-        except ValueError:
-            print("Invalid input. Please enter numeric year and month values (e.g., 2022 and 5 for May).")
-    
     # Path to folder for saving the results
     output_folder = 'data/raw/filtered'
     os.makedirs(output_folder, exist_ok=True)  # Create folder if it doesn't exist
@@ -75,4 +78,4 @@ else:
     output_file = os.path.join(output_folder, f'monkeypox_{new_start_year}_{new_start_month}_to_{new_end_year}_{new_end_month}_filtered.csv').replace("\\", "/")
     filtered_data.to_csv(output_file, index=False)
 
-    print(f"Data successfully filtered for the range {start_month}/{start_year} to {end_month}/{end_year}, and saved to: {output_file}")
+    print(f"Data successfully filtered for the range {new_start_month}/{new_start_year} to {new_end_month}/{new_end_year}, and saved to: {output_file}")
