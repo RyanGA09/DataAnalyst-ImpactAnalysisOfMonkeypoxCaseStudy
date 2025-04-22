@@ -136,15 +136,27 @@ You can check the code on my [Github](https://github.com/RyanGA09/) on the badge
 
 ## ☕ Support Me
 
+This is a non-commercial project. If you find it useful and would like to support the development of this project, you can donate via the links below. Your support helps improve the project, but it does not grant any commercial rights over the project itself.
+
 [![Saweria](https://img.shields.io/badge/Saweria-Support-orange?logo=saweria&style=for-the-badge)](https://saweria.co/RyanGA09)
 
 <!-- [![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?logo=paypal&style=for-the-badge)](https://www.paypal.me/ryangading) -->
 
 ## 📜 License
 
-This project is licensed for personal, academic, and non-commercial use only.  
+This project is licensed under a [Custom Non-Commercial License](LICENSE) for personal, academic, and non-commercial use only.  
 Any commercial use is prohibited without explicit written permission from the author.
 
 See the [LICENSE](LICENSE) file for more details.
 
 Copyright &copy; 2024 Ryan Gading Abdullah. All rights reserved.
+
+## 📧 Contact
+
+For commercial inquiries, please contact:
+
+[![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?logo=gmail&style=for-the-badge)](mailto:ryangadinga90@gmail.com)
+
+Or reach me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/ryan-gading-abdullah/)
