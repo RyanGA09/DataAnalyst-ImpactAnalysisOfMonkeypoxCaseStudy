@@ -140,7 +140,7 @@ This is a non-commercial project. If you find it useful and would like to suppor
 
 ## 📜 License
 
-This project is licensed under a [Custom Non-Commercial License](LICENSE) for personal, academic, and non-commercial use only.  
+This project is licensed under a `Custom Non-Commercial License` for personal, academic, and non-commercial use only.  
 Any commercial use is prohibited without explicit written permission from the author.
 
 See the [LICENSE](LICENSE) file for more details.
