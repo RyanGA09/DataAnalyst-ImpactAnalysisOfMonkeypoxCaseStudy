@@ -130,10 +130,6 @@ You can check the visualization result from my [Tableau](https://public.tableau.
 
 [![Tableau](https://img.shields.io/badge/Tableau-View-orange?logo=tableau&style=for-the-badge)](https://public.tableau.com/app/profile/ryanga09/vizzes)
 
-You can check the code on my [Github](https://github.com/RyanGA09/) on the badge below:
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-Project-black?logo=github&style=for-the-badge)](https://github.com/RyanGA09/DataAnalyst-ImpactAnalysisOfMonkeypoxCaseStudy)
-
 ## ☕ Support Me
 
 This is a non-commercial project. If you find it useful and would like to support the development of this project, you can donate via the links below. Your support helps improve the project, but it does not grant any commercial rights over the project itself.
