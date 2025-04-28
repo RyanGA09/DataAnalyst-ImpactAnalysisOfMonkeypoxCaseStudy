@@ -1,6 +1,6 @@
 # 🧪 Data Analyst - Impact Analysis of Monkeypox Case Study
 
-[![License: Custom Non-Commercial](https://img.shields.io/badge/license-Custom--Non--Commercial-blue?style=for-the-badge)](LICENSE) [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&style=for-the-badge)](https://www.python.org/) [![Made with Jupyter Notebook](https://img.shields.io/badge/Made%20with-Jupyter%20Notebook-orange?logo=jupyter&style=for-the-badge)](https://jupyter.org/)
+[![License: MIT License with Commons Clause](https://img.shields.io/badge/license-MIT%20License%20with%20Commons%20Clause-blue?style=for-the-badge)](LICENSE) [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&style=for-the-badge)](https://www.python.org/) [![Made with Jupyter Notebook](https://img.shields.io/badge/Made%20with-Jupyter%20Notebook-orange?logo=jupyter&style=for-the-badge)](https://jupyter.org/)
 
 This project was developed as part of my data analyst portfolio to demonstrate my skills in data preprocessing, exploratory data analysis (EDA), and data visualization using a real-world public health dataset. The case study focuses on the impact and spread of Monkeypox across regions, aiming to extract actionable insights from time-series and geographical patterns.
 
@@ -140,7 +140,7 @@ This is a non-commercial project. If you find it useful and would like to suppor
 
 ## 📜 License
 
-This project is licensed under a `Custom Non-Commercial License` for personal, academic, and non-commercial use only.  
+This project is licensed under the MIT License with Commons Clause. It is for personal, academic, and non-commercial use only.
 Any commercial use is prohibited without explicit written permission from the author.
 
 See the [LICENSE](LICENSE) file for more details.
